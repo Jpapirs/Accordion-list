@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <title>Accordion List</title>
+  </head>
+  <!--Arrow up:
+<span class="material-symbols-outlined">
+arrow_drop_up
+</span>-->
+  <!--Arrow down:
+<span class="material-symbols-outlined">
+arrow_drop_up
+</span>-->
+  <body>
+    <main class="main">
+      <div class="title">
+        <p id="p-title">Frequently Asked Questions</p>
+        <p>Here are some of the frequently asked questions</p>
+      </div>
+      <div class="accordion-list">
+        <dt class="list-title" data-title>
+          What is roadmap.sh?
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+        </dt>
+        <dl class="list-text" data-text>
+          Roadmap.sh is a community effort to create learning paths, guides,
+          project ideas and other similar content to help developers grow in
+          their careers.
+        </dl>
+
+        <dt class="list-title" data-title>
+          What are the plans for roadmap.sh?
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+        </dt>
+        <dl class="list-text" data-text>
+          We plan to continue expanding our collection of roadmaps, introduce
+          interactive features, support more technologies, and build tools that
+          help developers and teams track their progress.
+        </dl>
+
+        <dt class="list-title" data-title>
+          How is roadmap.sh built?
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+        </dt>
+        <dl class="list-text" data-text>
+          Roadmap.sh is an open-source project built using modern web
+          technologies like React and Node.js. The content is community-driven
+          and maintained through GitHub contributions.
+        </dl>
+
+        <dt class="list-title" data-title>
+          Can I use roadmap.sh in my team?
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+        </dt>
+        <dl class="list-text" data-text> 
+          Yes, roadmap.sh can be used by teams to guide learning, onboard new
+          developers, and align on skill development. Custom roadmaps and
+          progress tracking are particularly useful in team settings.
+        </dl>
+
+        <dt class="list-title" data-title>
+          How can I create custom roadmaps?
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+        </dt>
+        <dl class="list-text" data-text>
+          You can create custom roadmaps by using our roadmap builder tool,
+          which allows you to define steps, group tasks, and share your roadmap
+          with others. It's perfect for personal goals or team training plans.
+        </dl>
+
+        <dt class="list-title" data-title>
+          Is roadmap.sh really 7th most starred project on GitHub?
+          <span class="material-symbols-outlined"> arrow_drop_up </span>
+        </dt>
+        <dl class="list-text" data-text>
+          Yes! roadmap.sh has received immense support from the developer
+          community and currently ranks among the top most starred open-source
+          projects on GitHub.
+        </dl>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
 </html>
